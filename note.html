@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="note.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" 
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+</head>
+<body>
+ 
+    <nav>
+        <ul>
+        <div class="bars">
+            <li class="fa fa-bars"></li>
+            <img src="logo.png" alt="" title="profile">
+            <span>Keep</span>
+        </div> 
+
+        <div class="search-icon">
+            <input type="search" placeholder="search">
+            <span class="fas fa-search"></span>
+        </div>
+            
+        <div class="items">
+            <li><a href="#">
+                <i class="fa fa-redo" title="reload"></i>
+            </a></li>
+            <li><a href="#">
+                <i class="fa fa-pause" title="pause"></i>
+            </a></li>
+        <li><a href="#">
+            <i class="fa fa-cog" title="setting"></i>
+        </a></li>
+        <li><a href="#">
+        <i class="fab fa-buromobelexperte" title="tools"></i>    
+        </a></li>
+        <img src="terel.jpg" alt="">
+    </div>
+
+        </ul>
+    </nav>
+
+    <div class="popup-box">
+        <div class="popup">
+            <div class="content">
+                <header>
+                    <p>Add a new Note</p>
+                    <i class="uil uil-times"></i>
+                </header>
+            <form action="#">
+                <div class="row title">
+                    <label>Title</label>
+                    <input type="text">
+                </div>
+                <div class="row description">
+                    <label>Description</label>
+                    <textarea></textarea>
+                </div>
+                <button>Add Note</button>
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="icon-bars">
+    <a href="#" id="note-icon">
+        <i class="fa fa-lightbulb"></i>
+        <span>Note</span>
+    </a>
+    <a href="#">
+        <i class="fa fa-bell"></i>
+        <span>Reminder</span>
+    </a>
+    <a href="#">
+        <i class="fa fa-pencil"></i>
+        <span>Edit Labels</span>
+    </a>
+    <a href="#">
+        <i class="fa fa-archive"></i>
+        <span>Archives</span>
+    </a>
+    <a href="#">
+        <i class="fa fa-trash"></i>
+        <span>Trash</span>
+    </a>
+
+    <div class="note-container" id="note-container">
+        <input type="text" id="note-title" placeholder="Title">
+        <p contenteditable="true" class="input-box" id="note-body"></p>
+      
+    </div> 
+</div>
+
+<div class="wrapper">
+    <li class="add-box">
+        <div class="icon"><i class="uil uil-plus"></i></div>
+        <p>Add new note</p>
+    </li>
+     
+</div>
+
+    <script src="note.js"></script>
+</body>
+</html>
